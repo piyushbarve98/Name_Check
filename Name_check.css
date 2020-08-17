@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 140%;
+}
+.container{
+    background-color:#9370DB;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+#btn{
+    padding: 12px 24px;
+    border: 2px solid white;
+    background-color: #9370DB;
+    font-size: 22px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+    }
+#btn:hover{
+    background-color: white;
+    color:#9370DB;
+    border: 2px solid #9370DB;
+    }
+input{
+    padding:4px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 3px;
+}
